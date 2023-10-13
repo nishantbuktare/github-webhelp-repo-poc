@@ -5,9 +5,9 @@
 # Links
 [Output Project](https://github.com/nishantbuktare/space-pages)
 
-[Published PDF](https://github.com/nishantbuktare/space-pages/pdf-css-html5/space.pdf)
+[Published PDF](https://nishantbuktare.github.io/space-pages/pdf-css-html5/space.pdf)
 
-[Published WebHelp](https://github.com/nishantbuktare/space-pages/webhelp-responsive/)
+[Published WebHelp](https://nishantbuktare.github.io/space-pages/webhelp-responsive/)
 
 Read Me
 Added Lines
