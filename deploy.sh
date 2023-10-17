@@ -16,9 +16,9 @@ rev=$(git rev-parse --short HEAD)
 # You might need to customize the JSON data to match your Drupal content type fields
 curl -X POST -H "Content-Type: application/json" -d '{
   "title": "New WebHelp Responsive Content",
-  "type": "cms_content",
-  "field_description": "This is a description for your content."
-}' -u "${DRUPAL_USERNAME}:${DRUPAL_PASSWORD}" "${DRUPAL_URL}/entity/node?_format=json"
+  "type": "your_content_type",
+  "field_description": "Your WebHelp content here..."
+}' -u "${DRUPAL_USERNAME}:${DRUPAL_PASSWORD}" "${DRUPAL_URL}/api/endpoint"
 
 # Handle any additional data or formatting as needed.
 
