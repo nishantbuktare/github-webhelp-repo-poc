@@ -13,7 +13,7 @@ rm -rf "$TEMP_DIR"
 git clone --branch "$BRANCH" "$GITHUB_REPO" "$TEMP_DIR"
 
 # Assuming your webhelp responsive content is located in a specific subfolder (e.g., "webhelp")
-WEBHELP_DIR="$TEMP_DIR/webhelp"
+WEBHELP_DIR="$TEMP_DIR/webhelp-responsive"
 
 # Check if the repository was cloned successfully
 if [ -d "$WEBHELP_DIR" ]; then
