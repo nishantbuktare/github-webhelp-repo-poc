@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Define the Drupal CMS URL and authentication credentials
-DRUPAL_URL="http://localhost/drupal/"
+DRUPAL_URL="http://localhost:80"
 DRUPAL_USERNAME="root"
 DRUPAL_PASSWORD="*#Nishant1995"
 
