@@ -17,7 +17,7 @@ rev=$(git rev-parse --short HEAD)
 curl -X POST -H "Content-Type: application/json" -d '{
   "title": "New WebHelp Responsive Content",
   "type": "your_content_type",
-  "field_description": "Your WebHelp content here..."
+  "field_description": "Your WebHelp content heree..."
 }' -u "${DRUPAL_USERNAME}:${DRUPAL_PASSWORD}" "${DRUPAL_URL}/api/endpoint"
 
 # Handle any additional data or formatting as needed.
